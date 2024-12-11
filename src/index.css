@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 *{
-  background-image: url(src/assets/bgimg.jpg);
+  background-image: url('/assets/bgimg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
