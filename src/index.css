@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 *{
-  background-image: url(src/assets/bgimg.jpg);
+  background-image: url('./assets/bgimg.jpg');
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +18,10 @@
 .time{
   max-height: 100vh;
   
-  @apply flex justify-center my-24 text-8xl p-3
+  @apply flex text-center my-8 p-3 flex-col gap-4 sm:text-4xl sm:p-2 md:text-6xl lg:text-8xl;
+
+  
   
 }
+
+

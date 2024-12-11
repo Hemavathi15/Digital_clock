@@ -20,7 +20,10 @@ function Clock() {
   
   return (
     <>
-      <h1 className="time">{timer()}</h1>
+    <div className="time">
+        <h1 className="title">Digital clock</h1>
+        <h1 >{timer()}</h1>
+    </div>
     </>
   );
 }
