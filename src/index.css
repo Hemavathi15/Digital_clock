@@ -29,6 +29,6 @@
 /* Small screens (mobiles) */
 @media (max-width: 768px) {
   .time {
-      @apply text-4xl p-2;
+      @apply text-4xl p-2 mt-24;
   }
 }
