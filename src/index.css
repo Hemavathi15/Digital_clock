@@ -14,11 +14,21 @@
 }
 
 
-.time{
-  max-height: 100vh;
-  
-  @apply flex text-center my-8 p-3 flex-col gap-4 sm:text-4xl sm:p-2 md:text-6xl lg:text-8xl;
+/* Default styles for large screens */
+.time {
+  @apply flex text-center my-8 text-8xl p-3 flex-col gap-4;
+}
 
-  
-  
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+  .time {
+      @apply text-6xl;
+  }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 768px) {
+  .time {
+      @apply text-4xl p-2;
+  }
 }
