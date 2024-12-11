@@ -1,0 +1,22 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-image: url(src/assets/bgimg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+.time{
+  max-height: 100vh;
+  
+  @apply flex justify-center my-24 text-8xl p-3
+  
+}
